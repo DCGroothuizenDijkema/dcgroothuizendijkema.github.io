@@ -11,7 +11,9 @@
   <style>
     body { padding-left: 10%; padding-top:3em; font-family: 'Zen Kaku Gothic New', sans-serif ; margin-right: 10% }
     div {margin-left:-2em; margin-top:2em; padding-left:2em; padding-right:2em; padding-bottom:1em; margin-bottom:1em; padding-top:1em; border: 2px solid black; border-radius: 5px; overflow:auto; }
+    /* video {max-width: 730px;} */
   </style>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
 <body>
@@ -21,15 +23,12 @@
 
   <p>
   <a style="font-weight:bold" href="mailto:david.groothuizen.dijkema@auckland.ac.nz">My email: david.groothuizen.dijkema@auckland.ac.nz</a>
-  </p>
 
   <p>
   <a style="font-weight:bold" href="https://profiles.auckland.ac.nz/david-groothuizen-dijkema">My University of Auckland profile.</a>
-  </p>
 
   <p>
   <a href="documents/cv.pdf">My CV.</a>
-  </p>
 
   <div id="publications">
     <h2>Preprints</h2>
@@ -52,7 +51,26 @@
       <li><b>4 February 2021</b>: <i>Heteroclinic networks in partial differential equations</i>, University of Auckland Summer Research Conference 2021</li>
     </ol>
 
-    <a href="slides/src2022.pdf" target="_blank">Here is a GIF of the animation that accompanies many of the above talks.</a>
+    <hr>
+
+    <p>
+    Here is the animation that accompanies many of the above talks:
+
+    <p>
+    <video class="animation" src="media/gh_cyc_animation.mp4" controls="controls"> </video>
+
+    <p>
+    This animation is an example of a trajectory near the <i>Guckenheimer-Holmes cycle</i>, the prototypical example of a heteroclinic cycle. It was first considered by May and Leonard (though not using the terminology of heteroclinic cycles) in their study of nonlinear competition between three species. Each of the three coordinates represents the density of each of three species which compete with each other in a cyclic manner, just like the game of Rock-Paper-Scissors. In their words,
+
+    <blockquote style="max-width:70%; border-left: thick solid black; padding:1em; background: #EEE">
+
+      &hellip;[A] nonlinear study of this domain of parameter space reveals &hellip; a wider class of asymptotic solutions in which the system cycles from being composed almost wholly of population 1, to almost wholly 2, to almost wholly 3, back to 1, but with the time to complete the cycle becoming longer and longer (being proportional to the length of time the system has been running), and with the system coming in turn ever closer to the points with 1 alone, 2 alone and 3 alone, yet never actually converging on any one point.
+
+      <p>
+      <a href="https://doi.org/10.1137/0129022">May R and Leonard L 1975 <i>SIAM J. Appl. Math.</i> <b>29</b> 243</a>
+    </blockquote>
+
+    <hr>
 
     <h3>Posters</h2>
       <ol reversed>
